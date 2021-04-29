@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: openjdk11
+      java: openjdk8
     commands:
       - kubectl version --short --client  
       - java -version 
